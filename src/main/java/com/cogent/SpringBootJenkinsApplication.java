@@ -21,7 +21,7 @@ public class SpringBootJenkinsApplication {
 	 
 	public static void main(String[] args) {
 		
-		System.out.println("pipeline config");
+		System.out.println("pipeline config version 2");
 		
 		SpringApplication.run(SpringBootJenkinsApplication.class, args);
 	}
