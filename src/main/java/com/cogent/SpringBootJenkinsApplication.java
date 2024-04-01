@@ -20,6 +20,9 @@ public class SpringBootJenkinsApplication {
 	 }
 	 
 	public static void main(String[] args) {
+		
+		System.out.println("pipeline config");
+		
 		SpringApplication.run(SpringBootJenkinsApplication.class, args);
 	}
 
