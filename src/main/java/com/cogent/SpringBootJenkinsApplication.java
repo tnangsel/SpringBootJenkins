@@ -12,8 +12,8 @@ import jakarta.annotation.PostConstruct;
 @SpringBootApplication
 public class SpringBootJenkinsApplication {
 
-//	 static Logger log = LoggerFactory.getLogger(SpringBootJenkinsApplication.class);
-//	
+	 static Logger log = LoggerFactory.getLogger(SpringBootJenkinsApplication.class);
+	
 	 @PostConstruct
 	 void init() {
 		 log.debug("This is init constructor statement");
